@@ -1,0 +1,4 @@
+"D:\Program Files (x86)\JetBrainsToolBox\apps\CLion\ch-0\191.6183.77\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/MinGW_/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/MinGW_/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/MinGW_/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" F:\CLionProjects\snake
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/CLionProjects/snake/cmake-build-debug

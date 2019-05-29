@@ -1,0 +1,21 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: F:/CLionProjects/snake/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/MinGW_/bin/mingw32-make.exe" "cmTC_e8c00/fast"
+mingw32-make.exe[1]: Entering directory 'F:/CLionProjects/snake/cmake-build-debug/CMakeFiles/CMakeTmp'
+D:/MinGW_/bin/mingw32-make.exe -f CMakeFiles\cmTC_e8c00.dir\build.make CMakeFiles/cmTC_e8c00.dir/build
+mingw32-make.exe[2]: Entering directory 'F:/CLionProjects/snake/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8c00.dir/CheckIncludeFile.c.obj
+D:\MinGW_\bin\gcc.exe    -o CMakeFiles\cmTC_e8c00.dir\CheckIncludeFile.c.obj   -c F:\CLionProjects\snake\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+F:\CLionProjects\snake\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+CMakeFiles\cmTC_e8c00.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_e8c00.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[2]: *** [CMakeFiles/cmTC_e8c00.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[2]: Leaving directory 'F:/CLionProjects/snake/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_e8c00/fast' failed
+mingw32-make.exe[1]: *** [cmTC_e8c00/fast] Error 2
+mingw32-make.exe[1]: Leaving directory 'F:/CLionProjects/snake/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
